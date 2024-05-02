@@ -5,7 +5,7 @@ const App = () => {
   return (
     <Box bg="orange.300" minH="100vh" p={5}>
       <Flex direction="column" align="center" justify="center">
-        <Heading as="h1" size="2xl" color="yellow.400" mb={4}>Welcome to RetroWave</Heading>
+        <Heading as="h1" size="4xl" color="pink.400" mb={4} textShadow="2px 2px #000000">Welcome to RetroWave</Heading>
         <Text fontSize="xl" color="white" mb={6}>Dive into the nostalgia of retro design and vibrant colors!</Text>
         <VStack spacing={10} align="stretch">
           <Box bg="purple.300" color="white" p={5}>
