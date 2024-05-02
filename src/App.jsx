@@ -1,5 +1,5 @@
-import { Box, Flex, Heading, Text, Button, VStack } from '@chakra-ui/react';
-import { FaHome, FaInfo, FaBriefcase, FaEnvelope } from 'react-icons/fa';
+import { Box, Flex, Heading, Text, VStack, HStack } from '@chakra-ui/react';
+import { FaHome, FaInfo, FaBriefcase, FaEnvelope, FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const App = () => {
   return (
@@ -28,6 +28,17 @@ const App = () => {
           </Box>
         </VStack>
       </Flex>
+      <Box as="footer" bg="purple.700" color="white" p={4} mt={10}>
+        <VStack spacing={3}>
+          <Text fontSize="sm">© 2023 RetroWave. All rights reserved.</Text>
+          <HStack spacing={4}>
+            <FaFacebook />
+            <FaTwitter />
+            <FaInstagram />
+          </HStack>
+          <Text fontSize="sm">Dive into the nostalgia of retro design with us on social media!</Text>
+        </VStack>
+      </Box>
     </Box>
   );
 };
